@@ -1,1 +1,1 @@
-# Project Cashback
+# Project Cashback [![Build Status](https://travis-ci.org/ShaidVL/homework_cashback.svg?branch=master)](https://travis-ci.org/ShaidVL/homework_cashback)  [![codecov](https://codecov.io/gh/ShaidVL/homework_cashback/branch/master/graph/badge.svg)](https://codecov.io/gh/ShaidVL/homework_cashback)
