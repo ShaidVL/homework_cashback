@@ -1,22 +1,21 @@
 export function cashback(promoPurchases, costs) {
-    const firstPercent = 0.01;
-    const secondPercent = 0.05;
-    const thirdPercent = 0.3;
+    const standartPercent = 0.01;
+    const elevatedPercent = 0.05;
+    const specialPercent = 0.3;
     let result;
 
     switch (promoPurchases) {
         case 1:
-            result = costs * firstPercent;
-            break;
+            result = costs * standartPercent;
+            return result;
         case 2:
-            result = costs * secondPercent;
-            break;
+            result = costs * elevatedPercent;
+            return result;
         case 3:
-            result = costs * thirdPercent;
-            break;
+            result = costs * specialPercent;
+            return result;
         default:
             result = "invalid special offers";
-            break;
+            return result;
     }
-    return result;
 }

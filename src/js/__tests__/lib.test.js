@@ -30,4 +30,13 @@ test('should return cashback with 30%', () => {
     expect(result).toBe(expected);
 })
 
+test('wrong promo', () => {
+    const costs = 3000;
+    const promo = 4;
+    const expected = "invalid special offers";
+
+    const result = cashback(promo, costs);
+
+    expect(result).toBe(expected);
+})
 
